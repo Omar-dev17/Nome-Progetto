@@ -1,0 +1,71 @@
+body {
+  background: url('img/background.jpg');
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+}
+
+#container {
+  width: 1000px;
+  margin: 30px auto;
+  padding: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  /*alpha?*/
+  border-radius: 20px;
+}
+
+.actions {
+  padding: 10px;
+  background: #00DD00;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.header-image {
+  width: 250px;
+}
+
+.header-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: #00DD00;
+}
+
+.item {
+  margin: 20px 0;
+}
+
+.state {
+  /* margin-top: 20px; */
+}
+
+.charge {
+  height: 30px;
+  border-radius: 5px;
+  display: inline-block;
+  /* vertical-align: middle; */
+}
+
+.charge.high {
+  width: 600px;
+  background-color: #1ec31e;
+}
+
+.charge.mid {
+  width: 350px;
+  background-color: #f5b453;
+}
+
+.charge.low {
+  width: 150px;
+  background-color: #be4141;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 23px;
+  margin: 0;
+}
